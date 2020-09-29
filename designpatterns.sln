@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{F3355DFE-05E0-4CDF-A1B0-CAFEFDC34128}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{A9269DCB-78D9-44F2-B45C-D25D2FA23564}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F3355DFE-05E0-4CDF-A1B0-CAFEFDC34128}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3355DFE-05E0-4CDF-A1B0-CAFEFDC34128}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3355DFE-05E0-4CDF-A1B0-CAFEFDC34128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9269DCB-78D9-44F2-B45C-D25D2FA23564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9269DCB-78D9-44F2-B45C-D25D2FA23564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9269DCB-78D9-44F2-B45C-D25D2FA23564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9269DCB-78D9-44F2-B45C-D25D2FA23564}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
