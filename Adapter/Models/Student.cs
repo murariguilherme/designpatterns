@@ -14,7 +14,6 @@ namespace Adapter.Models
         public Student()
         {
             Id = Guid.NewGuid();
-            IncludeDate = DateTime.Now;
         }
 
         public override string ToString()
