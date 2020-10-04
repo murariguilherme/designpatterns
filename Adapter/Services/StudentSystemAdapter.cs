@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Adapter.Services
 {
-    public class NewStudentSystemAdapter : IStudentTarget
+    public class StudentSystemAdapter : IStudentTarget
     {
         private StudentsLegacySystemService legacySystem => new StudentsLegacySystemService();
         public List<Student> GetStudents()

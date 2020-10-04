@@ -7,7 +7,7 @@ namespace Adapter
     {
         static void Main(string[] args)
         {
-            IStudentTarget studentTarget = new NewStudentSystemAdapter();
+            IStudentTarget studentTarget = new StudentSystemAdapter();
             var thirdParty = new ThirdPartyStudentSystem(studentTarget);
             thirdParty.ShowStudents();
 
