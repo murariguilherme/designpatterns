@@ -10,7 +10,6 @@ namespace Adapter.Models
         public string Name { get; set; }
         public Gender Gender { get; set; }
         public bool Active { get; set; }
-        public DateTime IncludeDate { get; set; }
 
         public Student()
         {
@@ -21,7 +20,7 @@ namespace Adapter.Models
         public override string ToString()
         {
             return $"Id: {this.Id}, Name: {this.Name}, Gender: {this.Gender}, " +
-                $"Active: {this.Active.ToString()}, Include Date: {this.IncludeDate.ToShortDateString()}.";
+                $"Active: {this.Active.ToString()}.";
         }
     }
 
